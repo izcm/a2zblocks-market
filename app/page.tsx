@@ -1,5 +1,15 @@
-import Image from 'next/image'
+"use client";
+
+import Link from "next/link";
 
 export default function Home() {
-  return <div>Hi</div>
+  return (
+    <main className="flex flex-col items-center min-h-screen">
+      <div className="flex gap-8 mt-4">
+        <Link href="/collection/0xABC123">
+          <button className="w-full btn btn-primary">Browse Collections</button>
+        </Link>
+      </div>
+    </main>
+  );
 }

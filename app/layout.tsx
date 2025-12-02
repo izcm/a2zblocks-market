@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
-import { Providers } from '../components/providers/Providers'
-import { ThemeProvider } from '../components/providers/ThemeProvider'
+import { Providers } from './providers/Providers'
+import { ThemeProvider } from './providers/ThemeProvider'
 import { Header } from '@/components/organisms/Header'
 
 export const metadata: Metadata = {
@@ -21,7 +21,10 @@ export default function RootLayout({
         <Providers>
           <ThemeProvider>
             <Header />
-            {children}
+            <div className='flex flex-col min-h-screen py-8 items-center font-mono'>{children}</div>
+             <footer className="text-xs text-muted py-6 text-center">
+              © 2025 A2Z Blocks — Humbly built.
+            </footer>
           </ThemeProvider>
         </Providers>
       </body>

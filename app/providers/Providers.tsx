@@ -7,11 +7,11 @@ import { RainbowKitProvider, getDefaultConfig, midnightTheme } from "@rainbow-me
 import "@rainbow-me/rainbowkit/styles.css"
 
 const CYBER_VOID = {
-  accent: "#6d75ff", // --accent
-  accentForeground: "rgba(245, 247, 255, 0.94)", // --text-primary
-  borderDefault: "rgba(130, 150, 255, 0.35)", // --border-default
-  borderSoft: "rgba(130, 150, 255, 0.18)", // --border-soft
-  accentWeak: "rgba(109, 117, 255, 0.24)", // --accent-weak
+  accent: "#6d75ff", 
+  accentForeground: "rgba(245, 247, 255, 0.94)", 
+  borderDefault: "rgba(130, 150, 255, 0.35)", 
+  borderSoft: "rgba(130, 150, 255, 0.18)", 
+  accentWeak: "rgba(109, 117, 255, 0.24)", 
 }
 
 const config = getDefaultConfig({
