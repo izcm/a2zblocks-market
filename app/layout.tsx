@@ -21,8 +21,8 @@ export default function RootLayout({
         <Providers>
           <ThemeProvider>
             <Header />
-            <div className='flex flex-col min-h-screen py-8 items-center font-mono'>{children}</div>
-             <footer className="text-xs text-muted py-6 text-center">
+            <div className="w-full min-h-screen p-4 font-mono py-4 mt-4">{children}</div>
+            <footer className="text-xs text-muted py-6 text-center">
               © 2025 A2Z Blocks — Humbly built.
             </footer>
           </ThemeProvider>
